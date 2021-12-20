@@ -1,0 +1,39 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MyLK" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+
+    <style name="CircularProgress" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">#D0FC09</item>
+    </style>
+
+    <style name="CircularProgress_reg" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">#7B8E27</item>
+    </style>
+
+    <style name="style_edit_text" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">#D0FC09</item>
+    </style>
+
+
+
+<!--    <style name="HeadlineFont" parent="@android:style/TextAppearance.Small">-->
+<!--    <item name="android:fontFamily">@font/doublefeature</item>-->
+<!--    </style>-->
+
+
+
+
+</resources>
